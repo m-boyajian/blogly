@@ -1,10 +1,12 @@
 {% extends "base.html" %}
+
 {% block title %}Edit{{ user.full_name }}{% endblock %}
 
 {% block content %}
 
 <h1>Edit a user</h1>
 <form method="POST">
+    
   <div class="form-group row"></div>
   <label for="first_name" class="col-md-2 col-form-label">First Name</label>
     <div class="col-md">
